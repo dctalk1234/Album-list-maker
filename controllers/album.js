@@ -10,6 +10,7 @@ router.delete('/:id', (req, res) => {
         res.redirect('/');
     })
 })
+
 router.post('/:listID', (req, res) => {
     Album.create(req.body).then(newAlbum => {
         List.findOne({_id: req.params.listID}).then(list => {

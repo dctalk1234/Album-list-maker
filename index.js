@@ -20,6 +20,8 @@ app.use('/list', listController);
 app.get('/', (req, res) => {
     res.redirect('/users');
 })
-app.listen(3000, () => {
-    console.log('we live on 3000');
-})
+app.set("port", process.env.PORT || 3000);
+
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`);
+});
