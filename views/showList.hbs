@@ -1,0 +1,12 @@
+<h2>{{name}} <a href="/list/edit/{{id}}">Edit Name</a></h2>
+
+{{#each albums}}
+<li><a href="/albums/{{this.id}}">{{this.name}}</a></li>
+{{/each}}
+
+<a href="/albums/{{id}}/new">Add album to list</a>
+
+
+<form action="/list/{{id}}?_method=delete" method="post" style="margin-top: 30px">
+    <input type="submit" value="Delete">
+</form>
