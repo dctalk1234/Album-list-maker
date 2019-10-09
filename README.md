@@ -2,7 +2,7 @@
 This is a multi-page browser application that allows a user to keep track of lists of music albums.
 
 ## Set Up
-To get your own copy of this application you can simply fork and download this repository. Then run mongod then node db/seed.js followed by nodemon index.js. This will run the app at localhost:3000.
+To get your own copy of this application you can simply fork and download this repository. Then run mongod, then node db/seed.js, followed by nodemon index.js. This will run the app at localhost:3000.
 
 
 ## Current Version
