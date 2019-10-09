@@ -1,0 +1,145 @@
+body {
+  background-color: black;
+  color: lightGrey;
+}
+
+.home a {
+  background-color: purple;
+  color: lightGrey;
+  padding: 0px 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.home li {
+  margin: 10px;
+}
+
+.home li a {
+  background-color: black;
+  color: white;
+}
+
+.home li a:hover {
+  text-decoration: underline;
+}
+
+.home h2 {
+  display: inline-block;
+  font-size: 40px;
+  margin: 0px;
+  padding: 2px;
+}
+
+.showUser a {
+  background-color: purple;
+  color: lightGrey;
+  padding: 0px 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.showUser li {
+  margin: 10px;
+}
+
+.showUser li a:hover {
+  text-decoration: underline;
+}
+
+.showUser h2 {
+  display: inline-block;
+  font-size: 40px;
+  margin: 0px;
+  padding: 2px;
+}
+
+.showUser h4 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.showList a {
+  background-color: purple;
+  color: darkGrey;
+  padding: 0px 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.showList li {
+  margin: 10px;
+}
+
+.showList li a {
+  background-color: purple;
+  color: lightGrey;
+  padding: 0px 5px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.showList li a:hover {
+  text-decoration: underline;
+}
+
+.showList h2 {
+  display: inline-block;
+  font-size: 40px;
+  margin: 0px;
+  padding: 2px;
+}
+
+.showList h4 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.showAlbum h2 {
+  display: inline-block;
+  font-size: 40px;
+  margin: 0px;
+  padding: 2px;
+}
+
+.showAlbum h4 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.showAlbum a {
+  background-color: purple;
+  color: black;
+  text-decoration: none;
+  padding: 0px 2px;
+  margin: 0px 5px;
+}
+
+.newUser input {
+  background-color: lightGrey;
+}
+
+.newList input {
+  background-color: lightGrey;
+}
+
+.newAlbum input {
+  background-color: lightGrey;
+}
+
+.editUser input {
+  background-color: lightGrey;
+  color: black;
+}
+
+.editList input {
+  background-color: lightGrey;
+  color: black;
+}
+
+.editAlbum input {
+  background-color: lightGrey;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
